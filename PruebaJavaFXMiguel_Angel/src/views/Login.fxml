@@ -23,18 +23,18 @@
                         </ImageView>
                         <Label layoutX="26.0" layoutY="287.0" style="-fx-font-size: 30;" text="Create Your " textFill="#fffefe" />
                         <Label layoutX="21.0" layoutY="319.0" style="-fx-font-size: 30;" text="Own Account" textFill="#fffefe" />
-                        <JFXButton layoutX="59.0" layoutY="364.0" onAction="#mostrarVentanaSecundaria" stylesheets="@../../../../../workspaceDDII/PruebaJavaFXMiguel_Angel/src/application/application.css" text="Sing In" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="0.0" />
+                        <JFXButton layoutX="59.0" layoutY="364.0" onAction="#mostrarVentanaSecundaria" onMouseClicked="#mostrarVentanaSecundaria" stylesheets="@../../../../../workspaceDDII/PruebaJavaFXMiguel_Angel/src/application/application.css" text="Sing In" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="0.0" />
                         <JFXButton layoutX="138.0" layoutY="364.0" styleClass="mybutton" stylesheets="@../../../../../workspaceDDII/PruebaJavaFXMiguel_Angel/src/application/application.css" text="About Us" textFill="#904949" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="135.0" />
                      </children>
                   </AnchorPane>
                 	<Pane layoutX="562.0" layoutY="53.0" prefHeight="410.0" prefWidth="290.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;">
 				         <children>
-				            <JFXButton layoutX="137.0" layoutY="334.0" prefHeight="3.0" prefWidth="95.0" style="-fx-background-color: #5D4037; -fx-background-radius: 50PX;" text="GET STARTED" textFill="WHITE" />
+				            <JFXButton layoutX="137.0" layoutY="334.0" onMouseClicked="#mostrarVentanaSecundaria" prefHeight="3.0" prefWidth="95.0" style="-fx-background-color: #5D4037; -fx-background-radius: 50PX;" text="GET STARTED" textFill="WHITE" />
                         <JFXTextField labelFloat="true" layoutX="56.0" layoutY="78.0" promptText="FIRST NAME" unFocusColor="#5D4037" />
                         <JFXTextField labelFloat="true" layoutX="56.0" layoutY="117.0" promptText="LAST NAME" unFocusColor="#5D4037" />
                         <JFXTextField labelFloat="true" layoutX="56.0" layoutY="149.0" promptText="E-MAIL" unFocusColor="#5D4037" />
                         <JFXTextField labelFloat="true" layoutX="56.0" layoutY="187.0" promptText="PASSWORD" unFocusColor="#5D4037" />
-                        <JFXTextField labelFloat="true" layoutX="56.0" layoutY="230.0" promptText="REPEAT PASSWORD" unFocusColor="#5D4037"  />
+                        <JFXTextField labelFloat="true" layoutX="56.0" layoutY="230.0" promptText="REPEAT PASSWORD" unFocusColor="#5D4037" />
 				         </children>
 			     	</Pane>
               </items>

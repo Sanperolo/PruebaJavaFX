@@ -37,7 +37,7 @@ public class ControlFX {
            FXMLLoader loader = new FXMLLoader(MainFX.class.getResource("../views/FreeSolo.fxml"));
            AnchorPane ventanaDos = (AnchorPane) loader.load();
            Stage ventana = new Stage();
-           //ventana.setTitle("Venta Dos");
+           ventana.setTitle("Open FreeSolo");
            Window stagePrincipal = null;
 		   ventana.initOwner(stagePrincipal);
            Scene scene = new Scene(ventanaDos);
