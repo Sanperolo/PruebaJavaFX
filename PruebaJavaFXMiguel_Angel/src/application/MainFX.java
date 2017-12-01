@@ -16,7 +16,11 @@ import javafx.scene.text.Font;
 public class MainFX extends Application {
 	
 private AnchorPane rootLayout;
-	
+	/**
+	 * Carga la primera ventana
+	 * @author Mi PC
+	 * @version 1.0
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -37,6 +41,10 @@ private AnchorPane rootLayout;
 		}
 	}
 	
+	/**
+	 * Inicia la App
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
