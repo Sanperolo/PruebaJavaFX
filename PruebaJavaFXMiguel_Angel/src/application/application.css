@@ -15,6 +15,10 @@
   -fx-text-fill: white;
   }
 
-.fondo {
+.fondo1 {
 	-fx-background-color: #5D4037;
+}
+
+.fondo2 {
+	-fx-background-color: #D7CCC8;
 }

@@ -1,6 +1,8 @@
 package application;
 
+
 import javafx.scene.control.Button;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,11 +14,12 @@ import javafx.stage.Window;
 
 public class ControlFX {
 	
+	
     @FXML
     private Button btnCerrar;
 	
    @FXML
-   void closeApp(MouseEvent event) {
+   void cerrar(MouseEvent event) {
    	System.exit(0);
    }
    
@@ -29,15 +32,16 @@ public class ControlFX {
 	   }
      
 
-   public void openStage() {
+   public void mostrarVentanaSecundaria() {
        try {
            FXMLLoader loader = new FXMLLoader(MainFX.class.getResource("../views/FreeSolo.fxml"));
            AnchorPane ventanaDos = (AnchorPane) loader.load();
            Stage ventana = new Stage();
-           ventana.setTitle("Open FreeSolo");
+           //ventana.setTitle("Venta Dos");
            Window stagePrincipal = null;
 		   ventana.initOwner(stagePrincipal);
            Scene scene = new Scene(ventanaDos);
+           ventana.initStyle(StageStyle.DECORATED);
            ventana.setScene(scene);
            ventana.show();
 
