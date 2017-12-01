@@ -12,6 +12,11 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.stage.Window;
 
+/**
+ * 
+ * @author Mi PC
+ *
+ */
 public class ControlFX {
 	
 	

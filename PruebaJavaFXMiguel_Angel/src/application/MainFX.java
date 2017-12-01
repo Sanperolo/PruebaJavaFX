@@ -1,5 +1,11 @@
 package application;
 	
+/**
+ * @author Mi PC
+ * @version 1.0
+ * @Date 1/12/17
+ */
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
@@ -16,11 +22,7 @@ import javafx.scene.text.Font;
 public class MainFX extends Application {
 	
 private AnchorPane rootLayout;
-	/**
-	 * Carga la primera ventana
-	 * @author Mi PC
-	 * @version 1.0
-	 */
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
